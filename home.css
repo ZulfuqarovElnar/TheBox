@@ -1,14 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.image{
+    margin-left: 5%;
+}
 .navbar-brand{
     display: flex;
-    margin-left: 8%;
+    margin-left: 2%;
     font-weight: 700;
 }
 .navbar-nav{
     display: flex;
-    margin-left: 50%;
+    margin-left: 55%;
     font-weight: 700;
 }
 .nav-item{
