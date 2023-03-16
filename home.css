@@ -56,12 +56,14 @@ body {
     margin-left: 1%;
     margin-top: 3%;
     width: 49%;
+    padding: 0.3rem;
     color: white;
     background-color: #292E3D;
 }
 .btn2{
     margin-top: 3%;
     width: 48%;
+    padding: 0.3rem;
     color: white;
     background-color: #292E3D;
 }
@@ -80,3 +82,31 @@ body {
     margin: 6% 0 0 6%;
 }
 
+        /* * About * */
+
+.about-img{
+    width: 65%;
+    height: 50%;
+    margin: 5% 0 5% 0;
+}
+.about-box{
+    width: 33%;
+    position: absolute;
+    top: 180%;
+    left: 53%;
+    background-color: blue;
+}
+.about-title{
+    margin: 5% 0 5% 5%;
+    color: white;
+}
+.about-text{
+    margin: 5% 0 5% 5%;
+    color: white;
+}
+
+.about-btn{
+    margin: 5% 0 8% 5%;
+    padding: 0.5rem 1rem;
+    background-color: white;
+}
