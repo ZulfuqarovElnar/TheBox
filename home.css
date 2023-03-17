@@ -110,3 +110,28 @@ body {
     padding: 0.5rem 1rem;
     background-color: white;
 }
+
+        /* * Services * */
+
+.card1 {
+    margin: 5% 0 5% 6%;
+    background-color: #F6F8F7;
+}
+.card2{
+    margin: 5% 0 5% 6%;
+    background-color: #3559C7;
+}
+
+.card-img{
+    width: 15%;
+    margin: 10% 0 0 45%;
+}
+
+.card-img-bar{
+    margin-left: 38%;
+    margin-bottom: 3%;
+}
+
+.card-title1{
+    text-align: center;
+}
