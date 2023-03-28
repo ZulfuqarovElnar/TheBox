@@ -11,9 +11,11 @@ a {
     text-decoration: none;
 }
         /* *Navbar* */
-nav {
-    width: 1440px;
-    max-width: 100%;
+
+.image{
+    margin-left: 5%;
+}
+.navbar-brand{
     display: flex;
     justify-content: space-between;
     padding:20px 50px;
@@ -56,7 +58,10 @@ label, input {
     top: 30px;
     right: 35px;
 }
-
+.nav-item{
+    display: flex;
+    margin-left: 6%;
+}
 @media screen and (max-width: 800px){
     .navbar-nav{
         position: fixed;
@@ -106,81 +111,50 @@ label, input {
     
 }
 
+
         /* *Hero* */
-.hero-section{
-    width: 1440px;
-    height: 646px;
-    max-width: 100%;
-    position: relative;
-}    
-.hero-img{
-    display: flex;
-    max-width: 100%;
-    width: 1440px;
-    height: 646px;
-    object-fit: cover;
-    object-position: center;
-    position: relative;
-    
-}
 
-.hero-box{
-    max-width: 100%;
-    width: 416px;
-    height: 150px;
+.section1{
+    height: 572px;
+    background-image: url(./images/hero1.jpg);
+    background-size: cover;
+}
+.box{
+    position: absolute;
+    width: 30%;
+    height: 25%;
     background-color: #3559C7;
-    position: absolute;
-    top: 456px;
-    right: 0;
-    object-fit: cover;
-    object-position: center;
+    left: 70%;
+    top: 75%;
 }
 
-.hero-head {
-    max-width: 100%;
+.head {
     position: absolute;
-    top: 239px;
-    left: 10%;
-    font-size: 42px;
-    color: #fff;
-    text-align:center;
+    left: 15%;
+    top: 45%;
+    color: #292E3D;
     font-weight: bold;
 }
 
-.hero-head1{
-    max-width: 100%;
+.head1{
+    width: 100%;
+    margin-top: 2%;
     color: #ffffff;
     text-align: center;
-    font-size: 24px;
-    margin-top: 10px;
+    font-size: 25px;
 }
-.hero-head2{
-    max-width: 100%;
-    color: #ffffff;
-    text-align: center;
-    font-size: 24px;
-    margin-top: 20px;
-}
-
-.hero-btn1{
-    max-width: 100%;
-    width: 208px;
-    height: 40px;
-    position: absolute;
-    top: 606px;
-    right: 208px; 
-    text-align: center;
+.btn1{
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 49%;
+    padding: 0.3rem;
     color: white;
     background-color: #292E3D;
 }
-.hero-btn2{
-    max-width: 100%;
-    width: 207px;
-    height: 40px;
-    position: absolute;
-    top: 606px;
-    right: 0;
-    text-align: center;
+.btn2{
+    margin-top: 3%;
+    width: 48%;
+    padding: 0.3rem;
     color: white;
     background-color: #292E3D;
 }  
