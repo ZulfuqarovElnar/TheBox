@@ -106,8 +106,6 @@ label, input {
     
 }
 
-
-
         /* *Hero* */
 
 .hero-section{
@@ -188,6 +186,7 @@ label, input {
     background-color: #292E3D;
 }  
         /* * Our Reputation * */
+
 .our-section{
     max-width: 100%;
     width: 1440px;
@@ -258,7 +257,7 @@ label, input {
     height: 945px;
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
 }
 .about-img{
     max-width: 100%;
@@ -307,26 +306,67 @@ label, input {
 }
 
         /* * Services * */
-
-.card1 {
-    margin: 5% 0 5% 6%;
+.service-section {
+    max-width: 100%;
+    width: 1440px;
+    height: 608px;
+    position: relative;
     background-color: #F6F8F7;
+    display: flex;
+    justify-content: center;
 }
-.card2{
-    margin: 5% 0 5% 6%;
-    background-color: #3559C7;
+.head-service {
+    position: absolute;
+    top: 44px;
+    font-size: 36px;
+    text-align: center;
+}
+.service {
+    max-width: 100%;
+    width: 1008px;
+    height: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    object-fit: cover;
+    gap: 30px;
+    position: relative;
+    top: 122px;
+    overflow: auto;
+}
+.card-service-a {
+    position: relative;
+    width: 271px;
+    height: 181px;
+    background-color: #fff;
+    color: #2947A9;
+}
+.card-service-b{
+    position: relative;
+    width: 271px;
+    height: 181px;
+    background-color: #2947A9;
+    color: #fff;
 }
 
-.card-img{
-    width: 15%;
-    margin: 10% 0 0 45%;
+
+
+.card-img-service{
+    position: absolute;
+    top: 38px;
+    left: 115.5px;
 }
 
-.card-img-bar{
-    margin-left: 38%;
-    margin-bottom: 3%;
+.card-img-bar-service{
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    top: 98px;
+    left: 105.5px;
 }
 
-.card-title1{
+.card-title-service{
+    position: relative;
+    top: 128px;
     text-align: center;
 }
