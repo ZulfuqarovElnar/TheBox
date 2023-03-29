@@ -370,3 +370,39 @@ label, input {
     top: 128px;
     text-align: center;
 }
+
+        /*  * Ads *  */
+
+.ads-section{
+    max-width: 100%;
+    width: 1440px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./images/unsplash_MP0bgaS_d1c.png);
+    background-position: center;
+    position: relative;
+}
+.ads-card {
+    color: #fff;
+    overflow: auto;
+}
+.ads-head {    
+    object-fit: cover;
+    position: relative;
+    top: 90px;
+}
+
+.ads-text {
+    position: relative;
+    top: 142px;
+    object-fit: cover;
+}
+
+.ads-btn {
+    padding: 1rem 2rem;
+    position: relative;
+    top: 124px;
+    object-fit: cover;
+    object-position: center;
+}
